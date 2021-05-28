@@ -1,0 +1,6 @@
+
+create table if not exists storage 
+( storage_id integer primary key autoincrement ,
+  location varchar not null , 
+  sha1 char(40) not null ) ;
+
